@@ -125,7 +125,7 @@ img {
 
 header {
    height: 100vh;
-   background: url("/img/home/showcase.jpg") no-repeat center center/cover;
+   background: url("../img/home/showcase.jpg") no-repeat center center/cover;
    text-align: center;
    color: white;
    position: relative;
