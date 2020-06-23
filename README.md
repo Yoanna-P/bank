@@ -1,10 +1,11 @@
-# bank
-landing page for a bank
-# 
-No frameworks, plain HTML & CSS (flex-box)
-# 
-Responsive layout for mobile devices (width below 768px) with media queries
-# 
-Website idea and images - Brad Traversy
-# 
-The contact form is just a place-holder
+**Bank landing page**
+
+*Overview:*
+The landing page was created in order to practice web developent - it was created with plain HTML and CSS utilising Flexbox and media queries for a responsive design.
+
+*Features:*
+It includes 4 different sections describing the services the (imaginary) bank offers, some of their previous projects, the team and a (placeholder) contact form.
+
+*Resources:*
+The idea for the websites and the images come from a web development course by Brad Traversy
+
