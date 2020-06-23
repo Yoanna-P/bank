@@ -166,6 +166,7 @@ header * {
 .flex {
    display: flex;
    padding: 30px 50px;
+
 }
 
 .box {
@@ -310,3 +311,52 @@ footer {
 
 /* Mobile */
 
+@media (max-width: 768px){
+#navbar {
+   flex-direction: column;
+   height: 100px;
+   padding: 15px;
+}
+
+#navbar a {
+   padding: 10px 10px;
+   margin: 0 3px;  
+}
+
+#services .flex {
+   flex-direction:column;
+}
+
+#services .row {
+   flex-direction:column;
+}
+
+.grid-row{
+   flex-wrap: wrap;
+}
+
+.grid-column {
+   flex-basis: 50%;
+   max-width: 50%;
+   padding: 0 3px;
+}
+
+#team .flex {
+   flex-direction:column;
+}
+
+.teammate {
+   text-align: center;
+ 
+}
+
+.teammate img {
+   border-radius: 50%;
+   padding: 0 10px;
+   max-width: 70%;
+}
+#contact .row {
+   flex-direction:column;
+}
+
+}
